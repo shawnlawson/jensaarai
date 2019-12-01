@@ -1,0 +1,73 @@
+'.source.the-force':
+  'Method documentation':
+    'prefix': 'doc'
+    'body': '@@ ${1:method} - ${2:description}'
+  'box':
+    'prefix': 'box'
+    'body': 'box(vec2($1, $2), vec2($3, $4), ${5: float}, ${6:float})$0'
+  'circle':
+    'prefix': 'cir'
+    'body': 'circle(${1:float}, ${2:float}, ${3:float}, ${4:float})$0'
+  'rotate':
+    'prefix': 'rot'
+    'body': 'rotate(${1:vec2}, ${2:vec2}, ${3:float})$0'
+  'kaleidescope':
+    'prefix': 'kale'
+    'body': 'kale(${1:vec2}, ${2:PI2})$0'
+  'fractal brownian motion':
+    'prefix': 'fbm'
+    'body': 'fbm(${1:float_vec2_vec3}, ${2:int})$0'
+  'rmf':
+    'prefix': 'rmf'
+    'body': 'rmf(${1:vec2}, ${2:int})$0'
+  'vfbm':
+    'prefix': 'vfbm'
+    'body': 'vfbm(${1:vec2}, ${2:int})$0'
+  'vrmf':
+    'prefix': 'vrmf'
+    'body': 'vrmg(${1:vec2}, ${2:int})$0'
+  'sno':
+    'prefix': 'sno'
+    'body': 'TDSimplexNoise(${1:vec2})$0'
+  'pno':
+    'prefix': 'pno'
+    'body': 'TDPerlinNoise(${1:vec2})$0'
+  'hsv':
+    'prefix': 'hsv'
+    'body': 'TDHSVToRGB(${1:vec3})$0'
+  'rgb':
+    'prefix': 'rgb'
+    'body': 'TDRGBToHSV(${1:vec3})$0'
+  'backbuffer':
+    'prefix': 'backbuffer'
+    'body': 'sTD2DInputs[0]'
+  'vc':
+    'prefix': 'vc'
+    'body': 'vec2'
+  'vvc':
+    'prefix': 'vvc'
+    'body': 'vec3'
+  'ft':
+    'prefix': 'ft'
+    'body': 'float'
+  'iff':
+    'prefix': 'iff'
+    'body': 'if (false) {\n\t${1}\n}'
+  'fori':
+    'prefix': 'fori'
+    'body': 'for (int i = 0; i < ${1:int}; i++) {\n\t${2}\n}$0'
+  'forf':
+    'prefix': 'forf'
+    'body': 'for (float i = 0.0; i < ${1:float}; i++) {\n\t${2}}\n$0'
+  'if ... else':
+    'prefix': 'ife'
+    'body': 'if(${1:/* condition */})\n{\n\t${2:/* code */}\n}\nelse\n{\n\t${0:/* code */}\n}'
+  'if ...':
+    'prefix': 'if'
+    'body': 'if(${1:/* condition */})\n{\n\t${0:/* code */}\n}'
+  'main ...':
+    'prefix': 'main'
+    'body': 'void main()\n{\n\t${0:/* code */}\n}'
+  'method ...':
+    'prefix': 'me'
+    'body': '${1:void} ${2:method}()\n{\n\t${0:/* code */}\n}'

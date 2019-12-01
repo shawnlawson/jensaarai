@@ -1,0 +1,10 @@
+'.source.touch-designer':
+  'Method documentation':
+    'prefix': 'doc'
+    'body': '@@ ${1:method} - ${2:description}'
+  'clamp':
+    'prefix': 'cla'
+    'body': 'contents': 'clamp(${1:input}, ${2:min}, ${3:max})$0'
+  'remap':
+    'prefix': 'rema'
+    'body': 'remap(${1:input}, ${2:from_min}, ${3:from_max}, ${3:to_max}, ${3:to_max})$0'

@@ -1,0 +1,33 @@
+{
+  "context-menu": {
+    "atom-text-editor": []
+  },
+  "menu": [{
+      "label": "Packages",
+      "submenu": [{
+          "label": "jensaarai",
+          "submenu": [{
+              "label": "Start Touch Designer",
+              "command": "jensaarai:startTouchDesigner"
+            }, {
+                "label": "Start TidalCycles",
+                "command": "jensaarai:startTidalCycles"
+            },{
+                "label": "Eval",
+                "command": "jensaarai:eval"
+            }, {
+                "label": "Eval And Copy",
+                "command": "jensaarai:eval-copy"
+            }, {
+                "label": "Eval Multi Line",
+                "command": "jensaarai:eval-multi-line"
+            }, {
+                "label": "Eval Multi Line And Copy",
+                "command": "jensaarai:eval-multi-line-copy"
+            }, {
+                "label": "Hush",
+                "command": "jensaarai:hush"
+          }]
+      }]
+  }]
+}
