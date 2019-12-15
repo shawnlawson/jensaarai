@@ -1,4 +1,7 @@
 @import "ui-variables";
+@import "octicon-mixins";
+
+@join-leave-button-width: 50px;
 
 .jensaarai {
 }
@@ -65,4 +68,84 @@ atom-pane div.touchdesigner.console {
   .error{
     color: @text-color-error;
   }
+}
+
+
+.FirebaseStatus {
+  // Remove margin on the icon since there is no text that follows
+  &&&:before {
+    margin-right: 0;
+  }
+
+  &.transmitting {
+    color: @text-color-info;
+
+    &:hover {
+      color: @text-color-info;
+    }
+  }
+
+  &.initialization-error {
+    color: @text-color-error;
+
+    &:hover {
+      color: @text-color-error;
+    }
+  }
+}
+
+
+.FirepadPopoverTooltip {
+  user-select: none;
+
+  &.tooltip {
+    width: 315px;
+    padding-left: @component-padding;
+    padding-right: @component-padding;
+    box-sizing: border-box;
+  }
+
+  .tooltip-inner.tooltip-inner.tooltip-inner.tooltip-inner {
+    padding: @component-padding;
+    background-color: @tool-panel-background-color;
+    border: 1px solid @base-border-color;
+    box-shadow: 0 4px 8px hsla(0, 0, 0, .1);
+    color: @text-color;
+    max-height: 300px;
+    white-space: normal;
+    overflow-y: auto;
+  }
+
+  &.top .tooltip-arrow.tooltip-arrow {
+    width: @component-padding;
+    height: @component-padding;
+    border-width: 0 0 1px 1px;
+    border-color: @base-border-color;
+    background-color: @tool-panel-background-color;
+    border-bottom-right-radius: 2px;
+    transform: rotate(-45deg);
+  }
+}
+
+.cursors.blink-off .cursor.non-blinking {
+  opacity: 1;
+}
+
+// Site colors
+.cursor.ParticipantCursor { // cursor
+  &--site-1  { border-color: @ui-site-color-1; }
+  &--site-2  { border-color: @ui-site-color-2; }
+  &--site-3  { border-color: @ui-site-color-3; }
+  &--site-4  { border-color: @ui-site-color-4; }
+  &--site-5  { border-color: @ui-site-color-5; }
+  &--site-6  { border-color: spin(@ui-site-color-1, 25); }
+  &--site-7  { border-color: spin(@ui-site-color-2, 25); }
+  &--site-8  { border-color: spin(@ui-site-color-3, 25); }
+  &--site-9  { border-color: spin(@ui-site-color-4, 25); }
+  &--site-10 { border-color: spin(@ui-site-color-5, 25); }
+  &--site-11 { border-color: spin(@ui-site-color-1, 65); }
+  &--site-12 { border-color: spin(@ui-site-color-2, 65); }
+  &--site-13 { border-color: spin(@ui-site-color-3, 65); }
+  &--site-14 { border-color: spin(@ui-site-color-4, 65); }
+  &--site-15 { border-color: spin(@ui-site-color-5, 65); }
 }
