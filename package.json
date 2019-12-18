@@ -5,8 +5,8 @@
   "description": "Jensaarai livecoding editor.",
   "activationCommands": {
     "atom-workspace": [
-      "jensaarai:startTouchDesigner",
-      "jensaarai:startTidalCycles"
+      "jensaarai:start-touch-designer",
+      "jensaarai:start-tidal-cycles"
     ]
   },
   "repository": "",
