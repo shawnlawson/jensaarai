@@ -8,3 +8,5 @@ const app = firebase.initializeApp({
 app.database().ref().on('value', (snap) => {
   console.log('Got value: ', snap.val());
 });
+
+// ./node_modules/.bin/firebase-server -p 5555 -a 'localhost'
