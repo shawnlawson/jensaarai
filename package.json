@@ -17,6 +17,7 @@
   "dependencies": {
     "atom-space-pen-views": "^2.0.3",
     "etch": "^0.14.0",
+    "file-dialog": "0.0.8",
     "firebase": "^7.5.0",
     "firebase-server": "^1.0.2",
     "node-osc": "^4.1.3"
