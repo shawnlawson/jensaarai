@@ -1,11 +1,8 @@
 {
   "atom-workspace atom-text-editor:not([mini])": {
       "shift-enter": "jensaarai:eval",
-      "alt-shift-enter": "jensaarai:eval-copy",
       "cmd-enter": "jensaarai:eval-multi-line",
       "ctrl-enter": "jensaarai:eval-multi-line",
-      "alt-cmd-enter": "jensaarai:eval-multi-line-copy",
-      "alt-ctrl-enter": "jensaarai:eval-multi-line-copy",
       "shift-cmd-h": "jensaarai:hush",
       "shift-ctrl-h": "jensaarai:hush"
   }
