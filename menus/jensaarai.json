@@ -16,14 +16,8 @@
                 "label": "Eval",
                 "command": "jensaarai:eval"
             }, {
-                "label": "Eval And Copy",
-                "command": "jensaarai:eval-copy"
-            }, {
                 "label": "Eval Multi Line",
                 "command": "jensaarai:eval-multi-line"
-            }, {
-                "label": "Eval Multi Line And Copy",
-                "command": "jensaarai:eval-multi-line-copy"
             }, {
                 "label": "Hush",
                 "command": "jensaarai:hush"

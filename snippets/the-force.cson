@@ -41,6 +41,12 @@
   'backbuffer':
     'prefix': 'backbuffer'
     'body': 'sTD2DInputs[0]'
+  'tex':
+    'prefix': 'tex'
+    'body': 'texture(sTD2DInputs[0], stN).rgb;'
+  'init':
+    'prefix': 'init'
+    'body': '//glsl\n#include <glslHeader>\nout vec4 fragColor;\n\nvoid main(){\n\tvec3 c = black;\n\tfragColor = vec4(c, 1.0);\n}'
   'vc':
     'prefix': 'vc'
     'body': 'vec2'
