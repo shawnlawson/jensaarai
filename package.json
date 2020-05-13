@@ -1,15 +1,15 @@
 {
   "name": "jensaarai",
   "main": "./lib/jensaarai",
-  "version": "0.0.1",
-  "description": "Jensaarai livecoding editor.",
+  "version": "0.0.0",
+  "description": "Jensaarai collaborative live-coding package for glsl, tidal, and touchdesigner.",
   "activationCommands": {
     "atom-workspace": [
       "jensaarai:start-touch-designer",
       "jensaarai:start-tidal-cycles"
     ]
   },
-  "repository": "",
+  "repository": "https://github.com/shawnlawson/jensaarai",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
