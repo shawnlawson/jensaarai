@@ -1,3 +1,3 @@
 # jensaarai package
 
-Jensaarai collaborative live-coding package for glsl, tidal, and touchdesigner.
+Jensaarai is a collaborative live-coding package for glsl, tidal, and touchdesigner.
