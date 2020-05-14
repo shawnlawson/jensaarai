@@ -1,7 +1,7 @@
 {
   "name": "jensaarai",
   "main": "./lib/jensaarai",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Jensaarai collaborative live-coding package for glsl, tidal, and touchdesigner.",
   "activationCommands": {
     "atom-workspace": [
