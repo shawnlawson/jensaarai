@@ -18,8 +18,7 @@
     "etch": "^0.14.0",
     "file-dialog": "0.0.8",
     "firebase": "^7.21.0",
-    "firebase-server": "^1.1.0",
-    "node-osc": "^4.1.9"
+    "osc-js": "^2.1.0"
   },
   "consumedServices": {
     "status-bar": {
